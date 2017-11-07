@@ -1,0 +1,388 @@
+== Info: Rebuilt URL to: cookie/
+== Info: getaddrinfo(3) failed for cookie:80
+== Info: Couldn't resolve host 'cookie'
+== Info: Closing connection 0
+== Info:   Trying 52.78.64.91...
+== Info: TCP_NODELAY set
+== Info: Connected to programmers.co.kr (52.78.64.91) port 443 (#1)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: /usr/local/etc/openssl/cert.pem
+  CApath: /usr/local/etc/openssl/certs
+== Info: TLSv1.2 (OUT), TLS header, Certificate Status (22):
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ......_........x.:.|t..$3.x..b....}l......0.,.(.$.............k.
+0040: j.i.h.9.8.7.6.........2...*.&.......=.5.../.+.'.#.............g.
+0080: @.?.>.3.2.1.0.........E.D.C.B.1.-.).%.......<./...A.............
+00c0: ............3.........programmers.co.kr.........................
+0100: .................. .....................................3t......
+0140: ...h2.http/1.1..................................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....Y
+== Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 89 bytes (0x59)
+0000: ...U..h.o.........t.......#%.EM.u..... G..t..#..._...G.TV...`J..
+0040: .....pM./................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....6
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 5430 bytes (0x1536)
+0000: ...2../..e0..a0..I.......v...........n.. 0...*.H........0..1.0..
+0040: .U....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U..
+0080: ..COMODO CA Limited1604..U...-COMODO RSA Domain Validation Secur
+00c0: e Server CA0...161207000000Z..191207235959Z0a1!0...U....Domain C
+0100: ontrol Validated1.0...U....EssentialSSL Wildcard1.0...U....*.pro
+0140: grammers.co.kr0.."0...*.H.............0..........<....Y1.2B....W
+0180: .]Sv..O.....h-GC.G.."z.+...Q.o....a..!.(.q.Wwi.7?........)......
+01c0: ..J.p..rw........o*K.u.,3.h....t...E..p.CR.|M..GM.Z... ......&.E
+0200: T...9..-U..MG.m#8.=V/.pk..w.u......@..i.}.@....F..~..d../....P[
+0240: ..w.<<......Ke(--...~c9...we...m31.... .....D.q.........0...0...
+0280: U.#..0.....j:.Z.....Vs.C.:(..0...U......L.fP..+0.ws......x..0...
+02c0: U...........0...U.......0.0...U.%..0...+.........+.......0O..U. 
+0300: .H0F0:..+.....1....0+0)..+.........https://secure.comodo.com/CPS
+0340: 0...g.....0T..U...M0K0I.G.E.Chttp://crl.comodoca.com/COMODORSADo
+0380: mainValidationSecureServerCA.crl0....+........y0w0O..+.....0..Ch
+03c0: ttp://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.c
+0400: rt0$..+.....0...http://ocsp.comodoca.com01..U...*0(..*.programme
+0440: rs.co.kr..programmers.co.kr0...*.H.............t.+#].@../|}...z!
+0480: ...[.#:.D08Vi.o....|.....Q.c?U]B........T...F.....O..-...8;.t..
+04c0: {.Qb..q.ib.5.\.;.v.....j..ot.........wS.-...j8.O\.';..(T..@g..).
+0500: ..rF..q. j.ha6.Jz...)6W\..R%..n.'......BD....N/"O./.z..j.NK_...W
+0540: ....7.z.W........9....).9Y..S...?..a.w....a.".....0...0.........
+0580: .+.n..u6l..n..|..0...*.H........0..1.0...U....GB1.0...U....Great
+05c0: er Manchester1.0...U....Salford1.0...U....COMODO CA Limited1+0).
+0600: .U..."COMODO RSA Certification Authority0...140212000000Z..29021
+0640: 1235959Z0..1.0...U....GB1.0...U....Greater Manchester1.0...U....
+0680: Salford1.0...U....COMODO CA Limited1604..U...-COMODO RSA Domain 
+06c0: Validation Secure Server CA0.."0...*.H.............0............
+0700: ..Y..85.,....I.d..b.E.:..........mw........>....I.....K.. ...^e
+0740: .>..L...E^R/4.H$d.A.....g...z.S.;|...Uo.G.|.."......W.p.`...-...
+0780: .....{..*.(!.Mo.O%..z5.&.F...Y5..N.CP?Y..lQ!.X...uPx>L.....k...;
+07c0: ...R...$.n.'QE.p.%C...J...~..m...'s].E0....A...D...............
+0800: ....e0..a0...U.#..0.....~.=...<....8...22.0...U........j:.Z.....
+0840: Vs.C.:(..0...U...........0...U.......0.......0...U.%..0...+.....
+0880: ....+.......0...U. ..0.0...U. .0...g.....0L..U...E0C0A.?.=.;http
+08c0: ://crl.comodoca.com/COMODORSACertificationAuthority.crl0q..+....
+0900: ....e0c0;..+.....0../http://crt.comodoca.com/COMODORSAAddTrustCA
+0940: .crt0$..+.....0...http://ocsp.comodoca.com0...*.H.............N+
+0980: vO..b6..w.'....D...>..ff.>.I..5.......5..6.u...Pr|..w..... ..g..
+09c0: V{.D.B..]..PF....Yl.......:B...K4{';..o$;r.ctX<.l?O.......7..E.
+0a00: l..^.&........f5s2`N...a,nR.wh...uQ...t....8.C(......]G'`..8;lr
+0a40: ...B...o..E..........sx..#...l.....T|....U..I^.d..>...i...H.b...
+0a80: .FW.3...c......J.......R....>..Q...t...t..S..z.....&.....7[(;1..
+0ac0: W-Z..y.^ f.....9...C........$=.......`...[CG.K..._..........0.7.
+0b00: ...B........$Q......P..@{.Y.....w.4.......-.7..`.g ..B.E..h..f$7
+0b40: .)..F.%......(jDp&#b...o...p.Vw.x..%...Pr..:...c4...q... ..o....
+0b80: x0..t0..\.......'f.V.I....p...."0...*.H........0o1.0...U....SE1.
+0bc0: 0...U....AddTrust AB1&0$..U....AddTrust External TTP Network1"0 
+0c00: ..U....AddTrust External CA Root0...000530104838Z..200530104838Z
+0c40: 0..1.0...U....GB1.0...U....Greater Manchester1.0...U....Salford1
+0c80: .0...U....COMODO CA Limited1+0)..U..."COMODO RSA Certification A
+0cc0: uthority0.."0...*.H.............0..........T...V...$...Dgt.+7.}#
+0d00: p.q.S...*..K.V..pr.a.K...=...a.......>..>\...4z..k......zv.q..
+0d40: .....l......~..../O...gCr......k,.......~..n.....$.Ckb.U....l.
+0d80: .......li..xH0E....<E`.2.Q'.g....k.F.. ...e.H...N...F7.....HCgNr
+0dc0: *.\.L.(.\"{......Q...FNm>.....|3WA<.Q...\.,c..W.?..]...E...Z$...
+0e00: V=.o..IX........7.....:..CB...........`..(V......q....=...H.<...
+0e40: ."L....V;....[..."R...i..Le...-pt...g.)iR....PjUF...(ap....,!.G
+0e80: .(..Ev...'.....P.k.L.q0........@...B..3:.\.A..c..qk+....1\:jG..
+0ec0: yY. ...j..r.WJ.K.....LA...=^(.....Q..G..S........0..0...U.#..0..
+0f00: ....z4.&...&T....$.T.0...U........~.=...<....8...22.0...U.......
+0f40: ....0...U.......0....0...U. ..0.0...U. .0D..U...=0;09.7.5.3http:
+0f80: //crl.usertrust.com/AddTrustExternalCARoot.crl05..+........)0'0%
+0fc0: ..+.....0...http://ocsp.usertrust.com0...*.H.............d..._..
+1000: ....)W..Z...>.v.n.Rp..<.M.tj...%...*]L....m.T.u..'.].y7@.w.....;
+1040: .....4.~+.y..WE..(....P.....Wi}..R.s......nf.....-...Y.L...qL|G
+1080: .;.....l.>\.........HM.....s...{#....MU.zaE..h.^@k#.yz...k..oF.{
+10c0: .=K....YZ.A$....`XG..nF...._......@...9.............;o.8o..:0..6
+1100: 0...........0...*.H........0o1.0...U....SE1.0...U....AddTrust AB
+1140: 1&0$..U....AddTrust External TTP Network1"0 ..U....AddTrust Exte
+1180: rnal CA Root0...000530104838Z..200530104838Z0o1.0...U....SE1.0..
+11c0: .U....AddTrust AB1&0$..U....AddTrust External TTP Network1"0 ..U
+1200: ....AddTrust External CA Root0.."0...*.H.............0..........
+1240: .3....-9.N[...l....#.....3..)L}...J.........mPZ..).Z..Iz.......7
+1280: 8-.>.A.pV..O?.2.t...T.._.x..@<..a.^.....jP...N....q..q.P`....8..
+12c0: ....i&...L.O#.:O......io..B.kD....mA_rZq.7.ye.Y..7../...r..8r...
+1300: E.]*}........D..+.C.%.a.ijX#...3.VuY..).F..+e..Bo...{...]S.4Z'..
+1340: ......0..0...U.........z4.&...&T....$.T.0...U........0...U......
+1380: .0....0....U.#...0.......z4.&...&T....$.T..s.q0o1.0...U....SE1.0
+13c0: ...U....AddTrust AB1&0$..U....AddTrust External TTP Network1"0 .
+1400: .U....AddTrust External CA Root...0...*.H.................%..#..
+1440: ....A....y...[..#6e...w..AlG`.Q..2=...&......Z...xy.!..L...5...Q
+1480: .....~N.p..9...Q.-......Fu.$...B...p.g...5J..+z.QB.zc.....+.6...
+14c0: ..c~y{...@.j........B.Q.E...b!h. C<..|.$....s.?V.18..q..........
+1500: .....1.DL..sIv`......k...L.Z.y. ....c&.U.....Z{....N..
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A......W*...A.3t.$....9.]c..4..$e&.t.O.0.....u.I.n.W{.~..
+0040: ..l/?%...................D<w].f%p.H...Mo2..X#.F..../~..\.%..U]B.
+0080: .%).........v.]9............&`..!"j.......|.#.~.O...&U...jM=.k.
+00c0: ..+v.....I.\V...J..m...b....7.db.....=b..f....2:... (..\.....naE
+0100: .9.?.=.h_...#....`.Is......#qN...&....oJ....ap).......%...bA.u=.
+0140: ..X60....G..o
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+=> Send SSL data, 5 bytes (0x5)
+0000: ....F
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA...ahi.0.9P...].H.D.@.qX....,8..Z..54.!.....q..f.z..?...H..
+0040: ..m..V
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: ........~X]0.C?.
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS change cipher, Client hello (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: .........r...V..
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+== Info: ALPN, server did not agree to a protocol
+== Info: Server certificate:
+== Info:  subject: OU=Domain Control Validated; OU=EssentialSSL Wildcard; CN=*.programmers.co.kr
+== Info:  start date: Dec  7 00:00:00 2016 GMT
+== Info:  expire date: Dec  7 23:59:59 2019 GMT
+== Info:  subjectAltName: host "programmers.co.kr" matched cert's "programmers.co.kr"
+== Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+== Info:  SSL certificate verify ok.
+=> Send SSL data, 5 bytes (0x5)
+0000: ....r
+=> Send header, 163 bytes (0xa3)
+0000: POST /users/login HTTP/1.1
+001c: Host: programmers.co.kr
+0035: User-Agent: curl/7.54.0
+004e: Accept: */*
+005b: Content-Length: 183
+0070: Content-Type: application/x-www-form-urlencoded
+00a1: 
+=> Send data, 183 bytes (0xb7)
+0000: user_email=jjmean2%2540gmail.com%26user_password%3Daca3635279%26
+0040: authenticity_token%3DwZH3nMGVbycikF%2FHp7pCERWDu8HqQoulr3e8KGNhA
+0080: 357DxNEGoQ4VgoW%2F%2FVeU789Prttyyoj4NouqLuEEqfwcw%3D%3D
+== Info: upload completely sent off: 183 out of 183 bytes
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv header, 20 bytes (0x14)
+0000: HTTP/1.1 302 Found
+<= Recv header, 25 bytes (0x19)
+0000: Cache-Control: no-cache
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 37 bytes (0x25)
+0000: Date: Mon, 30 Oct 2017 12:03:21 GMT
+<= Recv header, 49 bytes (0x31)
+0000: Location: https://programmers.co.kr/users/login
+<= Recv header, 22 bytes (0x16)
+0000: Server: nginx/1.10.1
+<= Recv header, 52 bytes (0x34)
+0000: X-Request-Id: 9e0e38f7-3c4c-4916-a92a-874859be776b
+<= Recv header, 21 bytes (0x15)
+0000: X-Runtime: 0.003485
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 103
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Ignoring the response-body
+<= Recv data, 103 bytes (0x67)
+0000: <html><body>You are being <a href="https://programmers.co.kr/use
+0040: rs/login">redirected</a>.</body></html>
+== Info: Connection #1 to host programmers.co.kr left intact
+== Info: Issue another request to this URL: 'https://programmers.co.kr/users/login'
+== Info: Switch from POST to GET
+== Info: Found bundle for host programmers.co.kr: 0x7fa2c77111d0 [can pipeline]
+== Info: Re-using existing connection! (#1) with host programmers.co.kr
+== Info: Connected to programmers.co.kr (52.78.64.91) port 443 (#1)
+=> Send SSL data, 5 bytes (0x5)
+0000: ....t
+=> Send header, 92 bytes (0x5c)
+0000: GET /users/login HTTP/1.1
+001b: Host: programmers.co.kr
+0034: User-Agent: curl/7.54.0
+004d: Accept: */*
+005a: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ... .
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 52 bytes (0x34)
+0000: Cache-Control: max-age=0, private, must-revalidate
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 37 bytes (0x25)
+0000: Date: Mon, 30 Oct 2017 12:03:21 GMT
+<= Recv header, 44 bytes (0x2c)
+0000: ETag: W/"8ce376919ef92a158aaaa6bfe764a489"
+<= Recv header, 22 bytes (0x16)
+0000: Server: nginx/1.10.1
+<= Recv header, 205 bytes (0xcd)
+0000: Set-Cookie: guest_token=IjU2M2RkNzE0MGE2ZGIyZTUwZTI1NTY3MTMxNmNi
+0040: YjNlMzYxODJhYmFlMmFlYTFmMWIzZjQxYTgwM2IxYWE4Yzci--14035415b472b0
+0080: 9dba0321ca8d03423761c77088; path=/; expires=Fri, 30 Oct 2037 12:
+00c0: 03:21 -0000
+<= Recv header, 377 bytes (0x179)
+0000: Set-Cookie: _programmers_production_session=dHVsK01qN0tFOFRLKzZM
+0040: L095b0s4Q0pZcnZ5M3R2cmx1RC8zZGViK0UwTUgzM3BUVHdhOUZvVTNCZDU0L0VS
+0080: TFpkZ2lBcTlxbVhjeU1xMy9YbWprKzRhZTdXY3pDUS81ZXlYUXE4bU00ZnVzZnQz
+00c0: bEU2S0NheGI3Q0JKaksrZnRMejV5T08rZ2NnU3hpWmRRY1VkOTZ3PT0tLWtIWkFB
+0100: K3BJZWdTMzZkU2h1MVJMeFE9PQ%3D%3D--b4447d940459aaaaaa6fefe7beab68
+0140: 7df167aa47; domain=.programmers.co.kr; path=/; HttpOnly
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 33 bytes (0x21)
+0000: X-Content-Type-Options: nosniff
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 52 bytes (0x34)
+0000: X-Request-Id: 39cf9295-5276-4d93-a9b9-ba046d122b15
+<= Recv header, 21 bytes (0x15)
+0000: X-Runtime: 0.017954
+<= Recv header, 33 bytes (0x21)
+0000: X-XSS-Protection: 1; mode=block
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 7292
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 7292 bytes (0x1c7c)
+0000: <!DOCTYPE html>.<html lang="ko" xml:lang="ko" xmlns="http://www.
+0040: w3.org/1999/xhtml">.<head>.  <meta charset="utf-8">.<meta name="
+0080: viewport" content="width=device-width, initial-scale=1.0, maximu
+00c0: m-scale=1.0, user-scalable=no"/>.<meta http-equiv="x-ua-compatib
+0100: le" content="ie=edge">.<meta charset="utf-8" />.<title>.........
+0140: .........</title>.<link rel="shortcut icon" type="image/x-icon" 
+0180: href="https://programmers.co.kr/assets/icons/favicon-62fbe79ee43
+01c0: 4be97a7b1791d7f5eae06e53e6806a8ad9254f51ace33e119845c.ico" />.<l
+0200: ink rel="apple-touch-icon" type="image/png" href="https://progra
+0240: mmers.co.kr/assets/icons/apple-icon-ba015f4be3de92dd8274a0720169
+0280: a9ac34e44c56e994511501fe7b5dfc32c9eb.png" />.<meta name="theme-c
+02c0: olor" content="#5C6BC0">..<link rel="stylesheet" media="all" hre
+0300: f="/assets/application-aa675365217ac52eec79f733f9cb93c22665a2497
+0340: b5e6c880ee4dcec687f5217.css" />.<meta name="csrf-param" content=
+0380: "authenticity_token" />.<meta name="csrf-token" content="KE7jCA3
+03c0: SaqUAM9y3yR72dEAuHO+fpIPIQkEpatFUsuRSYykyfVQZAKYobe41OegkmxqBG8h
+0400: qUp3qZpZKFpT9Cw==" />.<meta name="action-cable-url" content="wss
+0440: ://programmers.co.kr:8080/cable" />.<script>.//<![CDATA[.window.
+0480: addEventListener('load', function() {});.//]]>.</script>....    
+04c0: <script>.      (function (i, s, o, g, r, a, m) {.          i['Go
+0500: ogleAnalyticsObject'] = r;.          i[r] = i[r] || function () 
+0540: {.              (i[r].q = i[r].q || []).push(arguments).        
+0580:   }, i[r].l = 1 * new Date();.          a = s.createElement(o),.
+05c0:               m = s.getElementsByTagName(o)[0];.          a.asyn
+0600: c = 1;.          a.src = g;.          m.parentNode.insertBefore(
+0640: a, m).      })(window, document, 'script', '//www.google-analyti
+0680: cs.com/analytics.js', 'ga');..        ga('create', 'UA-72680702-
+06c0: 5', 'auto', {userId: 'Guest-781368'});.      ga('send', 'pagevie
+0700: w');.  </script>..</head>.<body class="users-sessions users-sess
+0740: ions-new".      data-controller="users_sessions".      data-acti
+0780: on="new">.<!--......... ......... ............ topbar-->.<div cl
+07c0: ass="navbar navbar-inverse navbar-login">.  <div class="navbar-h
+0800: eader">.    <button type="button" class="navbar-toggle" data-tog
+0840: gle="collapse" data-target=".navbar-collapse">.      <span class
+0880: ="icon-bar"></span>.      <span class="icon-bar"></span>.      <
+08c0: span class="icon-bar"></span>.    </button>..    <a class="navba
+0900: r-brand" href="/">.        <img alt="logo" src="/assets/bi-logot
+0940: ype-light-02b27d1884c189e660cb0621539185a7fe6feb0a37a452fc0c159c
+0980: 0bfa88060f.png" width="144" height="34" />.</a>  </div>..  <div 
+09c0: class="navbar-collapse collapse">.    <ul class="nav navbar-nav 
+0a00: navbar-right navbar-nav-login">.      <li><a title="............
+0a40:  ........." href="/business/login">............ .........</a></l
+0a80: i>.      <li><a title="......... ...... ........." href="https:/
+0ac0: /programmers.co.kr/users/login">......... ...... .........</a></
+0b00: li>.    </ul>.  </div>.</div>..<div class="main ">.  <div class=
+0b40: "row">.  <div class="title-and-alert">.    <h3>.................
+0b80: . ...... .........</h3>.  </div>.  <div class="integrated-sign">
+0bc0: .    <div class="well panel panel-integrated-sign-guide">.  <img
+0c00:  with="292" height="196" src="/assets/img-integrated-sign-04f4a2
+0c40: 7c539f8f2312b011e965071518a8c21e6be18ba9003111b28838f9699a.png" 
+0c80: alt="Img integrated sign" />.  <br/>.  <h4>......... ...........
+0cc0: . ...... ......... ......</h4>.  <h6>............ ......... (...
+0d00: )......... ............ ...... ............ ......... ... ......
+0d40: ........    <br/>.    <br/>.    <a href="https://hashcode.co.kr"
+0d80: >Hashcode.co.kr</a> <br/>.    ............... ............... ..
+0dc0: .... Q&A.........<br/><br/>..    <a href="https://programmers.co
+0e00: .kr">Programmers.co.kr</a><br/>.    ............... ......  ....
+0e40: ..... .........<br/><br/>..  </h6>..</div>..    <div class="well
+0e80:  panel panel-integrated-sign">.      <form role="form" class="ne
+0ec0: w_user" id="new_user" action="/users/login" accept-charset="UTF-
+0f00: 8" method="post"><input name="utf8" type="hidden" value="&#x2713
+0f40: ;" /><input type="hidden" name="authenticity_token" value="TA+M1
+0f80: Vy8UzuFu0UpIjyfXrfxpTxBh1kXLAamELpLGV4PFo4nWJMMCQbizfjvLCjoHHyEF
+0fc0: dGnQ/XxevM4mSAsrg==" />.        <label class="control-label requ
+1000: ired" for="user_email">.........</label>.        <div class="for
+1040: m-group"><input required="required" autofocus="autofocus" placeh
+1080: older="........." type="email" tabindex="1" class="form-control"
+10c0:  value="" name="user[email]" id="user_email" /></div>.        <d
+1100: iv class="flex-space-between">.          <label class="control-l
+1140: abel required" for="user_email">............</label>.          <
+1180: a class="h6" href="/users/password/new.user">............ ......
+11c0: ...</a>.        </div>.        <div class="form-group"><input re
+1200: quired="required" placeholder="............" class="form-control
+1240:  form-control" tabindex="2" type="password" name="user[password]
+1280: " id="user_password" /></div>.        <input type="submit" name=
+12c0: "commit" value="........." class="btn btn-primary btn-block" dat
+1300: a-disable-with="........." tabindex="3" />.</form>      <div cla
+1340: ss="social-login"><form class="button_to" method="post" action="
+1380: /users/auth/facebook"><button class="btn btn-signup btn-facebook
+13c0: " type="submit"><div><svg id="logo-facebook" class="ic-white w-7
+1400: 4 h-18 vertical-align-middle"><use xlink:href="/assets/svg-defs-
+1440: b30cd69c339c9c0413b2a0fc4f212229d59dd84e16fb3fcaf6243519eda29f4f
+1480: .svg#ic-facebook-76"/></svg></div></button><input type="hidden" 
+14c0: name="authenticity_token" value="mTD0BMRt5584d0jYI/Am7ljzUOQET+y
+1500: Ns235Z/hg4Pf32YOFp/qaXNhS9YNdP6bJItHp0fHGbjZi7rDdx3FhsQ==" /></f
+1540: orm><form class="button_to" method="post" action="/users/auth/gi
+1580: thub"><button class="btn btn-signup btn-github" type="submit"><d
+15c0: iv><svg id="logo-github" class="ic-white w-74 h-18 vertical-alig
+1600: n-middle"><use xlink:href="/assets/svg-defs-b30cd69c339c9c0413b2
+1640: a0fc4f212229d59dd84e16fb3fcaf6243519eda29f4f.svg#ic-GitHub-56"/>
+1680: </svg></div></button><input type="hidden" name="authenticity_tok
+16c0: en" value="ZWVjoqroOleRWeKZtRPpIeI75OfCGtLIYZi5MtTdF5l00kQYX2tUv
+1700: 1r1cWer1BGl4xtcBFLpIrKOl/rG6bMT8g==" /></form></div>.      <h2 c
+1740: lass="login-divider"><span>......</span></h2>.      <h5>.       
+1780:  <a class="btn-outline" href="/users/signup">...... ...... .....
+17c0: ....</a>.      </h5>.    </div>.  </div>..  <footer class="flex-
+1800: center">.  <a class="h6 m-r-20" href="/tos">......</a>.  <a clas
+1840: s="h6 m-r-20" href="https://programmers.co.kr/privacy">.........
+1880: ... ............</a>.  <a class="h6 m-r-20" href="/faq">......</
+18c0: a>.</footer>.</div>.</div>...<div class="modal fade" id="modal-d
+1900: ialog" tabindex="-1" role="dialog" aria-labelledby="exampleModal
+1940: Label" aria-hidden="true"></div>.<script src="/assets/applicatio
+1980: n-551c32ae3c832650853b3a8411f854230306e23f20b1928e4f12ec19b920a4
+19c0: c2.js"></script>..  <script src="//widget.cloudinary.com/global/
+1a00: all.js" type="text/javascript">.      cloudinary.setCloudName('e
+1a40: ightcruz');.  </script>..  <script src="https://www.gstatic.com/
+1a80: charts/loader.js" type="text/javascript"></script>..  <script ty
+1ac0: pe="text/javascript">.      Rollbar.configure({.          payloa
+1b00: d: {.              .          }.      });.  </script>....<noscri
+1b40: pt>.  ... ............ ......... ...... ............ ...........
+1b80: . ..................... ......... ...... ......... .............
+1bc0: .  <a href="http://www.enable-javascript.com/ko/" target="_blank
+1c00: ">.    .................. ..................... ............... 
+1c40: ......</a>... ...... ...........</noscript>.</body>.</html>.
+== Info: Connection #1 to host programmers.co.kr left intact

@@ -1,0 +1,10 @@
+#!/usr/local/bin/bash
+
+cat input.txt | 
+    xargs -L1 java -jar gcdlcm-0.1.jar ${1:-0} |
+    sed -n '/^\[/p' |
+    diff - correct_answer.txt
+if [ $? -eq 0 ]
+then echo correct $?
+else echo wrong $?
+fi

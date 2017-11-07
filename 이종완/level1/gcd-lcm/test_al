@@ -1,0 +1,10 @@
+#!/usr/local/bin/bash
+
+INPUT_FILE=${1:-input.txt}
+METHOD=${2:-0}
+
+cat $INPUT_FILE |
+xargs -L1 java -jar gcdlcm-0.1.jar $2
+
+
+
