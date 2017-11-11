@@ -7,12 +7,31 @@ public class InsertionSort {
         int length = array.length;
 
         for (int i = 0; i < length; i++) {
+            // index i는 끼워넣을 수
             for (int j = 0; j < i; j++) {
-                if (array[i] < array[j]) {
+                // index j는 정렬된 배열들의 각각을 끼워넣을 수와 비교
+                if (array[i] > array[j]) {
                     int tmp;
                     tmp = array[j];
                     array[j] = array[i];
                     array[i] = tmp;
+                }
+            }
+        }
+    }
+
+    void sort2(int[] array) {
+        int length = array.length;
+
+        for (int i = 0; i < length; i++) {
+            // index i는 정렬할 수
+            for (int j = i ; j > 0; j--) {
+                if (array[j] > array[j-1]) {
+                    int tmp = array[j];
+                    array[j] = array[j-1];
+                    array[j-1] = tmp;
+                } else {
+                    break;
                 }
             }
         }
@@ -43,7 +62,7 @@ public class InsertionSort {
 
         }
         System.out.println("Before: " + Arrays.toString(testCase));
-        is.sort(testCase);
+        is.sort2(testCase);
         System.out.println("After: " + Arrays.toString(testCase));
     }
 }
