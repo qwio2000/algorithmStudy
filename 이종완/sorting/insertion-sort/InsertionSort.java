@@ -5,10 +5,11 @@ import java.util.stream.Stream;
 public class InsertionSort {
     void sort(int[] array) {
         int length = array.length;
+
         for (int i = 0; i < length; i++) {
-            int tmp;
             for (int j = 0; j < i; j++) {
-                if (array[i] > array[j]) {
+                if (array[i] < array[j]) {
+                    int tmp;
                     tmp = array[j];
                     array[j] = array[i];
                     array[i] = tmp;
