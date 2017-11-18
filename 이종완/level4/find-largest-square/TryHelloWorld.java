@@ -29,7 +29,7 @@ class TryHelloWorld {
                 char[] accumulateRow = findBoard[j];
                 findBoard[j] = accumulate(accumulateRow, currentRow);
                 System.out.println(Arrays.toString(findBoard[j]));
-                int rowCount = i;
+                int rowCount = i - j + 1;
                 int columnCount = countMaxContinuousO(findBoard[j]);
                 int squareSide = rowCount > columnCount ? columnCount : rowCount;
                 if (squareSide > longestSide) {
