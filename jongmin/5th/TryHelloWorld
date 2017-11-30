@@ -1,0 +1,22 @@
+class TryHelloWorld {
+	public int tiling(int n) {
+		if(n<=2) return n;
+		int answer = 0;
+		long num1 = 1;
+		long num2 = 2;
+		long temp = 0;
+		for(int i=n-2; i>=1; i--) {
+			temp = num1%100000 + num2%100000;
+			num1= num2;
+			num2 = temp;
+		}
+		answer = (int)temp%100000;
+		return answer;
+	}
+
+	public static void main(String args[]) {
+		TryHelloWorld tryHelloWorld = new TryHelloWorld();
+		// 아래는 테스트로 출력해 보기 위한 코드입니다.
+		System.out.print(tryHelloWorld.tiling(701));
+	}
+}
