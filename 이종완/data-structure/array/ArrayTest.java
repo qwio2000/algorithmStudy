@@ -4,14 +4,41 @@ public class ArrayTest {
 
 		Array array = new Array(10);
 		
-		array.add(3);
-		array.add(4);
-		array.add(10, 0);
-		array.add(11, 2);
-		System.out.print(array.remove(3));
-
-
 		printArray(array);
+		array.add(3);
+		printArray(array);
+		array.add(4);
+		printArray(array);
+		array.add(10, 0);
+		printArray(array);
+		array.add(11, 2);
+		printArray(array);
+		System.out.println(array.remove(3));
+		printArray(array);
+		System.out.println(array.read(1));
+		printArray(array);
+		array.add(5);
+		printArray(array);
+		array.add(23);
+		printArray(array);
+		array.replace(2, 4);
+		printArray(array);
+		array.replace(0, 3);
+		printArray(array);
+		array.swap(1, 4);
+		printArray(array);
+		array.swap(0, 2);
+		printArray(array);
+		array.remove(3);
+		printArray(array);
+		array.remove(0);
+		printArray(array);
+		array.remove(2);
+		printArray(array);
+
+		array.clear();
+		printArray(array);
+
 
 	}
 
@@ -24,5 +51,9 @@ public class ArrayTest {
 			}
 		}
 		System.out.print("]");
+		System.out.print(", length: ");
+		System.out.print(array.dataCount());
+		System.out.print(", size: ");
+		System.out.println(array.size());
 	}
 }
