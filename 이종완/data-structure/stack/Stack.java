@@ -8,7 +8,7 @@ public class Stack implements IStack {
 	}
 
 	public void push(Object data) {
-		if (top >= internalArray.length) {
+		if (isFull()) {
 			throw new StackFullException();
 		}
 
@@ -16,7 +16,7 @@ public class Stack implements IStack {
 	}
 
 	public Object pop() {
-		if (top <= 0) {
+		if (isEmpty()) {
 			throw new StackEmptyException();
 		}
 
