@@ -1,8 +1,8 @@
 public class LinearQueue implements IQueue {
 
-	int front = 0;
-	int rear = 0;
-	Object[] internalArray;
+	private int front = 0;
+	private int rear = 0;
+	private Object[] internalArray;
 
 	public LinearQueue(int size) {
 		internalArray = new Object[size];
